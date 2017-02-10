@@ -1,27 +1,48 @@
+body {
+	background-color: #efefef;
+}
+
 .demo-card-wide.mdl-card {
-  width: inherit;
+  width: 512px;
+  /*margin: 0 auto;*/
 }
 .demo-card-wide > .mdl-card__title {
-  color: #fff;
+  color: #000;
   height: 178px;
-  background: url('https://getmdl.io/assets/demos/welcome_card.jpg') center / cover;
+  background: url('https://i1.wp.com/holidaysandobservances.net/wp-content/uploads/2015/05/4th-of-july-american-flag.jpg') center / cover;
 }
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
 }
 
+
+
 .demo-card-image.mdl-card {
-  width: inherit;
+  float: left;
+  width: 256px;
   height: 256px;
-  background: url('https://getmdl.io/assets/demos/image_card.jpg') center / cover;
+  background: url('http://docs.oracle.com/javafx/2/charts/img/pie-sample.png') center / cover;
 }
+
+#other_sources {
+	background: #fff; 
+}
+
 .demo-card-image > .mdl-card__actions {
-  height: 52px;
+  height: 50px;
   padding: 16px;
   background: rgba(0, 0, 0, 0.2);
 }
 .demo-card-image__filename {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 500;
+}
+
+#spacer {
+	width: 512px;
+}
+
+.demo-list-icon {
+  width: 300px;
 }
