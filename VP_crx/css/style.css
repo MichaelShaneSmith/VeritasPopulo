@@ -2,6 +2,10 @@ body {
 	background-color: #efefef;
 }
 
+#chart_div {
+  width: 100%;
+}
+
 .demo-card-wide.mdl-card {
   width: 512px;
   /*margin: 0 auto;*/
